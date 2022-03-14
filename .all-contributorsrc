@@ -437,6 +437,69 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "debone",
+      "name": "Victor Debone",
+      "avatar_url": "https://avatars.githubusercontent.com/u/763457?v=4",
+      "profile": "https://debone.com.br",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "lifeparticle",
+      "name": "Mahbub Zaman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1612112?v=4",
+      "profile": "https://medium.com/@lifeparticle",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "mokajima",
+      "name": "Misaki Okajima",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10166985?v=4",
+      "profile": "https://mokajima.com/",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "marioleed",
+      "name": "Mario Sannum",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1763448?v=4",
+      "profile": "https://github.com/marioleed",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "octokatherine",
+      "name": "Katherine Peterson",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49968061?v=4",
+      "profile": "https://github.com/octokatherine",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "alexcwatt",
+      "name": "Alex Watt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/494201?v=4",
+      "profile": "https://alexcwatt.com/",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "nedredmond",
+      "name": "Ned Redmond",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23404711?v=4",
+      "profile": "https://github.com/nedredmond",
+      "contributions": [
+        "test"
+      ]
     }
   ],
   "skipCi": true

@@ -64,7 +64,7 @@ variable and how to fix it here for [windows][win-path] or
 After you've made sure to have the correct things (and versions) installed, you
 should be able to just run a few commands to get set up:
 
-```
+```shell
 git clone https://github.com/kentcdodds/react-fundamentals.git
 cd react-fundamentals
 node setup
@@ -86,7 +86,7 @@ it's a lot).
 If you can't get the setup script to work, then just make sure you have the
 right versions of the requirements listed above, and run the following commands:
 
-```
+```shell
 npm install
 npm run validate
 ```
@@ -94,7 +94,7 @@ npm run validate
 If you are still unable to fix issues and you know how to use Docker 🐳 you can
 setup the project with the following command:
 
-```
+```shell
 docker-compose up
 ```
 
@@ -235,6 +235,15 @@ Thanks goes to these wonderful people
     <td align="center"><a href="https://antdke.co"><img src="https://avatars.githubusercontent.com/u/22419667?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Anthony Diké</b></sub></a><br /><a href="https://github.com/kentcdodds/react-fundamentals/commits?author=antdke" title="Documentation">📖</a></td>
     <td align="center"><a href="https://www.omscs-notes.com"><img src="https://avatars.githubusercontent.com/u/19544466?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Matt Schlenker</b></sub></a><br /><a href="https://github.com/kentcdodds/react-fundamentals/commits?author=m4ttsch" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/Siemik"><img src="https://avatars.githubusercontent.com/u/45874801?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jakub</b></sub></a><br /><a href="https://github.com/kentcdodds/react-fundamentals/commits?author=Siemik" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://debone.com.br"><img src="https://avatars.githubusercontent.com/u/763457?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Victor Debone</b></sub></a><br /><a href="https://github.com/kentcdodds/react-fundamentals/commits?author=debone" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://medium.com/@lifeparticle"><img src="https://avatars.githubusercontent.com/u/1612112?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mahbub Zaman</b></sub></a><br /><a href="https://github.com/kentcdodds/react-fundamentals/commits?author=lifeparticle" title="Documentation">📖</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://mokajima.com/"><img src="https://avatars.githubusercontent.com/u/10166985?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Misaki Okajima</b></sub></a><br /><a href="https://github.com/kentcdodds/react-fundamentals/commits?author=mokajima" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/marioleed"><img src="https://avatars.githubusercontent.com/u/1763448?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mario Sannum</b></sub></a><br /><a href="https://github.com/kentcdodds/react-fundamentals/commits?author=marioleed" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/octokatherine"><img src="https://avatars.githubusercontent.com/u/49968061?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Katherine Peterson</b></sub></a><br /><a href="https://github.com/kentcdodds/react-fundamentals/commits?author=octokatherine" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://alexcwatt.com/"><img src="https://avatars.githubusercontent.com/u/494201?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Alex Watt</b></sub></a><br /><a href="https://github.com/kentcdodds/react-fundamentals/commits?author=alexcwatt" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/nedredmond"><img src="https://avatars.githubusercontent.com/u/23404711?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ned Redmond</b></sub></a><br /><a href="https://github.com/kentcdodds/react-fundamentals/commits?author=nedredmond" title="Tests">⚠️</a></td>
   </tr>
 </table>
 
