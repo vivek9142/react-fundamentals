@@ -5,25 +5,36 @@
   <div id="root"></div>
 
   <!-- 🐨 add React and ReactDOM on the page.
-       💰 Here are script tags that'll do the job:
-  <script src="https://unpkg.com/react@17.0.0/umd/react.development.js"></script>
+       💰 Here are script tags that'll do the job:-->
+ <script src="https://unpkg.com/react@17.0.0/umd/react.development.js"></script>
   <script src="https://unpkg.com/react-dom@17.0.0/umd/react-dom.development.js"></script>
-  -->
+  
 
   <script type="module">
     const rootElement = document.getElementById('root')
+    
+    // creating the element with react n giving the props in 2nd param
+    // const element = React.createElement('h1',{className:'container',children:'Hello World'})
+    
+    //for the extracted it we needto create 2 span el so in create element we can specify children after the props
+    //so we have type,props and thereafter we have children,children will be stored in aray in component
+    // const element = React.createElement('div',{className:'container'},'Hello',' ','World');
 
-    // You're going to re-implement this code using React!
-    // 💣 So go ahead and delete this implementation (or comment it out for now)
-    // These three lines are similar to React.createElement
-    const element = document.createElement('div')
-    element.textContent = 'Hello World' // 💰 in React, you set this with the "children" prop
-    element.className = 'container' // 💰 in React, this is also called the "className" prop
-    // This is similar to ReactDOM.render
-    rootElement.append(element)
+    //we can also pass it in props as array same o/p
+    // const element = React.createElement('div',{className:'container',children:['Hello',' ','World']});
 
-    // 🐨 Please re-implement the regular document.createElement code above
-    // with these React API calls
-    // 💰 The example in the markdown file should be a good hint for you.
+    //for making span el - we will get warning once we render these as children as we need key prop so check another workaround 
+    //for not passing props you can add {} or null 
+    const helloEl = React.createElement('span',null,'Hello');
+    const WorldEl = React.createElement('span',{},'World');
+    // const element = React.createElement('div',{className:'container',children:[helloEl,' ',WorldEl]});
+
+    //this will not give key prop  -we will discuss this more in key props lecture
+    const element = React.createElement('div',{className:'container'},helloEl,' ',WorldEl);
+    
+    //rendering and appending the element to the root element
+    ReactDOM.render(element,rootElement)
+
+    
   </script>
 </body>

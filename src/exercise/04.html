@@ -11,10 +11,63 @@
 
     // 🐨 use that function in place of the divs below with:
     // 💰 {message({children: 'Hello World'})} {message({children: 'Goodbye World'})}
+    // const element = (
+    //   <div className="container">
+    //     <div className="message">Hello World</div>
+    //     <div className="message">Goodbye World</div>
+    //   </div>
+    // )
+    // function message({children}){
+    //   return <div className="message">{children}</div>
+    // }
+
+    //here we are creating elements which are of message type element to 
+    //react.createElement call (custom components)
+    //when react goes to dom node creating this element ,it
+    //does't create a dom node instead it creates an element that is sitting down in memory and 
+    //it calls down the func to get dom nodes that represent the element on to page
+    
+    // const helloElement = React.createElement(message,{children:'Hello World'})
+    // const element = (
+    //   <div className="container">
+    //     {React.createElement(message,{children:'Hello World'})}
+    //     {React.createElement(message,{children:'Goodbye World'})}
+    //   </div>
+    // )
+
+    // PropTypes
+    //1 thing to keep in mind, this proptypes can be problematic and can affect performnce issues
+    //so react doesnt do this in production env. so this is dev time feature only
+    // it will hold all of the prop validatiors
+    const propTypes = {
+      //string prop validator so each time a string prop will come it will be validated here
+      string(props,propName,componentName){
+        const type = typeof props[propName];
+        if(type !== 'string'){
+          return new Error(
+            `Hey, the component ${componentName} needs the prop ${propName} to be
+            a type of 'string' but was passed as a ${type}`
+          )
+        }
+      }
+    }
+    function Message({subject,greeting}){
+      return (
+        <div className="message">
+          {greeting} , {subject}
+        </div>
+      )
+    } 
+
+    Message.propTypes = {
+      subject:propTypes.string,
+      greeting:propTypes.string
+    }
+
     const element = (
       <div className="container">
-        <div className="message">Hello World</div>
-        <div className="message">Goodbye World</div>
+        <Message subject='World'/>
+        <Message greeting='Goodbye' subject='World' />
       </div>
     )
 
